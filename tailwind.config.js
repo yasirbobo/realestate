@@ -1,6 +1,7 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: [],
+  darkMode: 'selector',
+  content: ["./src/**/*.{html,js}"],
   theme: {
     fontFamily: {
       serif: ['Ubuntu', 'sans-serif'],
@@ -10,4 +11,3 @@ module.exports = {
   },
   plugins: [],
 }
-
